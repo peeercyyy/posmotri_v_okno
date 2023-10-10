@@ -36,3 +36,143 @@ ul,
 ol {
   list-style: none;
 }
+.page {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  margin: 133px auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1140px;
+  gap: 30px;
+}
+
+.result {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.search-form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.content__details {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 26px;
+  width: 100%;
+  height: 100%;
+}
+
+.content__list {
+  overflow: auto;
+  height: 298px;
+}
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  position: relative;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+}
+
+.content__list {
+  position: relative;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.search-form__fieldset-title {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 94%;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.content__video-card-description {
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__label {
+  display: flex;
+  flex-flow: row nowrap;
+  width: fit-content;
+}
