@@ -36,11 +36,6 @@ ul,
 ol {
   list-style: none;
 }
-.page {
-  width: 100%;
-  max-width: 1140px;
-  height: 100%;
-}
 
 .button {
   height: 34px;
@@ -80,7 +75,8 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-  margin: 133px auto;
+  margin: auto 30px;
+  padding: 133px 0;
 }
 
 .result {
@@ -163,6 +159,8 @@ ol {
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
+  font-family: Oswald;
+  font-style: normal;
 }
 
 .content__accent {
