@@ -9,13 +9,13 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -37,22 +37,22 @@ ol {
   list-style: none;
 }
 .page {
-  max-width: 1140px;
   width: 100%;
+  max-width: 1140px;
   height: 100%;
 }
 
 .button {
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 18px;
-  background: transparent;
-  text-align: center;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
   height: 34px;
+  border: 1px solid #fff;
   padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -74,13 +74,13 @@ ol {
 }
 
 .content {
-  margin: 133px auto;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: flex-end;
-  width: 1140px;
   gap: 30px;
+  width: 1140px;
+  margin: 133px auto;
 }
 
 .result {
@@ -94,8 +94,8 @@ ol {
   display: flex;
   flex-flow: row nowrap;
   align-items: start;
-  width: 100%;
   gap: 40px;
+  width: 100%;
 }
 
 .content__details {
@@ -107,13 +107,13 @@ ol {
 }
 
 .content__list {
-  overflow: auto;
   height: 298px;
+  overflow: auto;
 }
 
 .result__video-container {
-  height: 386px;
   position: relative;
+  height: 386px;
 }
 
 .result__video {
@@ -147,20 +147,20 @@ ol {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
 .search-form__fieldset-title {
-  font-size: inherit;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 5px;
+  font-weight: 400;
+  font-size: inherit;
+  line-height: normal;
 }
 
 .title {
-  font-size: 75px;
   font-weight: 700;
+  font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
 }
@@ -171,8 +171,8 @@ ol {
 
 .content__card-link {
   display: block;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 .content__card-link:focus {
@@ -180,8 +180,8 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  border: 1px solid #fff;
   margin: 1px;
+  border: 1px solid #fff;
 }
 
 .content__card-link:hover {
@@ -189,11 +189,11 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 6px;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
@@ -203,17 +203,17 @@ ol {
 
 .visually-hidden {
   position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+  inline-size: 1px;
+  block-size: 1px;
   clip-path: inset(50%);
   white-space: nowrap;
 }
 
 .search-form__fieldset {
-  border: none;
   flex-grow: 1;
+  border: none;
 }
 
 .search-form__label {
@@ -234,19 +234,19 @@ ol {
 }
 
 .search-form__textfield {
-  background: transparent;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Fira Sans Condensed;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  appearance: none;
+  width: 211px;
   border: none;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  width: 211px;
   padding: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  background: transparent;
+  appearance: none;
 }
 
 .search-form__textfield:focus {
@@ -254,18 +254,18 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
+  position: relative;
   width: 19px;
   height: 19px;
-  border: 1px solid #fff;
   margin-right: 5px;
-  position: relative;
+  border: 1px solid #fff;
 }
 
 .search-form__pseudo-checkbox::before {
   content: '';
+  display: none;
   width: 15px;
   height: 15px;
-  display: none;
   margin: 1px;
   background-color: #fff;
 }
@@ -280,8 +280,8 @@ ol {
 }
 
 .search-form__submit-button {
-  width: 194px;
   align-self: flex-end;
+  width: 194px;
 }
 
 .more-button {
