@@ -170,8 +170,22 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  border: 1px solid #fff;
+  margin: 1px;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
 }
 
 .content__video-card-title {
@@ -272,4 +286,8 @@ ol {
 
 .more-button {
   width: 100%;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
